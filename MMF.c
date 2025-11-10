@@ -1,7 +1,5 @@
 #include <ApplicationServices/ApplicationServices.h>
 #include <CoreFoundation/CoreFoundation.h>
-#include <stdio.h>
-#include <stdint.h>
 #include <stdlib.h>
 #include <string.h>
 
@@ -190,4 +188,3 @@ int main() {
     moveFocusToNextScreen();
     return 0;
 }
-//gcc -o moveFocus moveFocusToNextScreen.c -framework ApplicationServices -framework Carbon -framework CoreFoundation
